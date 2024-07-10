@@ -173,6 +173,7 @@
   border-radius: 12px;
   display: flex;
   justify-content: space-between;
+ align-items: center;
   gap: 50px;
 }
 
@@ -187,6 +188,7 @@
   border-radius: 12px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 50px;
 }
 /* development section ends*/
