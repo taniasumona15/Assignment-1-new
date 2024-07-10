@@ -93,6 +93,82 @@
 
 /* banner section ends */
 
+.container {
+  padding: 0 100px;
+}
+
+/* support section starts */
+
+.support {
+  background-image: url(../assets/handshake.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 55vh;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+}
+
+.support::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(13, 19, 33);
+  border-radius: 10px;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.support-content {
+  z-index: 2;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.support-content h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.support-content p {
+  color: rgb(218, 213, 213);
+  margin: 20px 0 50px;
+}
+
+#input_text {
+  width: 400px;
+  padding: 15px 15px;
+  border-radius: 7px;
+  border: none;
+}
+
+.support-content button {
+  width: 100px;
+  padding: 14px 10px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  color: rgb(13, 19, 33);
+  background: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.support-content button:hover {
+  color: white;
+  background: rgb(173, 174, 175);
+}
+
+/* support section ends */
+
 /* footer section starts */
 .footer-content {
   display: flex;
