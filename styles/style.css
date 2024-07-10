@@ -97,6 +97,80 @@
   padding: 0 100px;
 }
 
+/* target section starts */
+
+.target {
+  margin: 70px 0 60px;
+}
+
+.target-heading {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.target-heading h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  word-spacing: -10px;
+}
+
+.target-heading p {
+  font-size: 14px;
+  line-height: 22px;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+.target-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.target-content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.target-content p {
+  font-size: 14px;
+  color: rgb(117, 119, 120);
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.target-content a {
+  font-weight: 800;
+}
+
+.target-1 {
+  width: 100%;
+
+  background: rgba(255, 76, 30, 0.05);
+  border-radius: 10px;
+  padding: 50px 30px;
+}
+
+.target-2 {
+  width: 100%;
+  background: rgba(0, 76, 232, 0.05);
+  border-radius: 10px;
+  padding: 50px 30px;
+}
+
+.target-3 {
+  width: 100%;
+  background: rgba(255, 223, 0, 0.05);
+  border-radius: 10px;
+  padding: 50px 30px;
+}
+
+/* target section ends */
+
 /* support section starts */
 
 .support {
