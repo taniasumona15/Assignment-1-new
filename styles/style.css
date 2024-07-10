@@ -90,15 +90,108 @@
   color: rgb(13, 19, 33);
   background: transparent;
 }
-
 /* banner section ends */
 
 .container {
   padding: 0 100px;
 }
 
-/* inspiration section starts */
+/* development section starts*/
+.development {
+  margin: 50px 0 50px;
+  border-radius: 8px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 80px 60px;
+}
 
+.development-heading {
+  text-align: center;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.development-heading h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  word-spacing: -10px;
+}
+
+.development-heading p {
+  font-size: 14px;
+  line-height: 22px;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+.development-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.development-content h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: rgba(13, 19, 33, 0.7);
+  line-height: 35px;
+  margin-bottom: 25px;
+}
+
+.development-content p {
+  font-size: 14px;
+  line-height: 22px;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.development-content button {
+  border-radius: 3px;
+  padding: 15px 25px;
+  color: rgb(13, 19, 33);
+  background: transparent;
+  border: 1px solid rgb(120, 122, 128);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.development-content button:hover {
+  background: rgb(13, 19, 33);
+  color: white;
+}
+
+.development-1,
+.development-3 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 59%,
+    rgba(19, 25, 51, 0) 80%
+  );
+  padding: 60px 50px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.development-2 {
+  background: rgb(19, 25, 51);
+  background: linear-gradient(
+    90deg,
+    rgba(19, 25, 51, 0) 31%,
+    rgba(255, 255, 255, 1) 39%
+  );
+  padding: 60px 50px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+/* development section ends*/
+
+/* inspiration section starts */
 .inspiration {
   margin: 50px 0 20px;
 }
@@ -137,7 +230,6 @@
 /* inspiration section ends */
 
 /* target section starts */
-
 .target {
   margin: 70px 0 60px;
 }
@@ -207,13 +299,11 @@
   border-radius: 10px;
   padding: 50px 30px;
 }
-
 /* target section ends */
 
 /* next target section starts */
-
 .next_target_content {
-  margin-top: 60px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -273,11 +363,9 @@
   width: 100px;
   height: 80px;
 }
-
 /* next target section ends */
 
 /* support section starts */
-
 .support {
   background-image: url(../assets/handshake.jpg);
   background-position: center;
@@ -345,7 +433,6 @@
   color: white;
   background: rgb(173, 174, 175);
 }
-
 /* support section ends */
 
 /* footer section starts */
